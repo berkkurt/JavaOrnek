@@ -20,11 +20,11 @@ public class KareCizdirme {
 	{
 		for(int y = 0; y < girilen_sayi; y++)
 		{
-			System.out.print("*");    // Satırı yazdırdık.
+			System.out.print("*");       // Satırı yazdırdık.
 		}
 		
-		System.out.println();         //println ile alt satıra geçip
-                                              //sütunları yazdırdık.
+		System.out.println();           //println ile alt satıra geçip
+                                               //sütunları yazdırdık.
 
         } 
         
