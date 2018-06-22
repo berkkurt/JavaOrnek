@@ -10,10 +10,12 @@ public class DortgenYildiz {
         
         Scanner input = new Scanner(System.in);//Dışardan gireceğim değeri input değişkeninde tut
         int yukseklik, genislik;
+        
         System.out.print("Kutunun yuksekligini giriniz: ");
-                yukseklik = input.nextInt();//Dışardan gireceğim yüksekliği tam sayı olarak yukseklik değişkeninde tut.
+        yukseklik = input.nextInt();//Dışardan gireceğim yüksekliği tam sayı olarak yukseklik değişkeninde tut.
+        
         System.out.print("Kutunun genisligini giriniz: ");
-                genislik = input.nextInt();//Dışardan gireceğim genişliği tam sayı olarak genislik değişkeninde tut
+        genislik = input.nextInt();//Dışardan gireceğim genişliği tam sayı olarak genislik değişkeninde tut
 
                 for(int i=0; i<yukseklik; i++)
                 {
@@ -26,5 +28,7 @@ public class DortgenYildiz {
                     }
                 System.out.println();
                 }
+        
     }
+    
 }
