@@ -18,8 +18,10 @@ public class SicaklikDonusum {
         System.out.println("1-)Fahrenheit->Celsius "+"\n"+"2-)Celsius->Fahrenheit");
         System.out.println("Lütfen seçim yapınız : ");
         secim = input.nextInt();
+      
         System.out.println("Değeri giriniz");
         derece = input.nextDouble();
+      
             if(secim == 1)
             {
                 donusum = ((derece-32)*5.0)/9.0;
