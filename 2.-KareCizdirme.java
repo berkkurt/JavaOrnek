@@ -1,9 +1,10 @@
 // Kullanıcıdan aldığı değerle kare çizdiren program.
 
 package karecizdirme;
+
 import java.util.Scanner; // Scanner sınıfı için gerekli.
 
- 
+
 public class KareCizdirme {
 
 
