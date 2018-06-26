@@ -1,6 +1,7 @@
 //Dışardan girilen genişlik ve yükseklik değerlerini göre, yıldız ile dörtgen yapmak.
 
 package dortgenyildiz;
+
 import java.util.Scanner; //kullanıcıdan girdi almak için kullanılan sınıf
 
 
