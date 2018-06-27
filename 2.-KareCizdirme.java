@@ -15,7 +15,6 @@ public class KareCizdirme {
 	System.out.print("Lütfen bir tam sayi giriniz : ");  // Kullanıcıdan değer 
         Scanner input = new Scanner(System.in);              // aldık. Örn: kullanıcı 5 değeri girdi.
 	girilen_sayi = input.nextInt();                      // Program bize 5 satır ve 5 sütun yıldız yazdırır.
-	
         
 	for(int x = 0; x< girilen_sayi; x++)
 	{
