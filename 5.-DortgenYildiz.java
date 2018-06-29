@@ -27,9 +27,9 @@ public class DortgenYildiz {
                         else
                             System.out.print(" ");
                     }
+                    
                 System.out.println();
+                    
                 }
-        
-    }
-    
+    } 
 }
