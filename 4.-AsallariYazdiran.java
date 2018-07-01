@@ -23,5 +23,6 @@ public class AsallariYazdiran {
                 } 
                 if(sayi==0) System.out.println(+i); 
             } 
+        
     } 
 }
