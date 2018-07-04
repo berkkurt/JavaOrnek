@@ -1,6 +1,7 @@
 // Java ile yapılan, fibonacci serisindeki sayıları yazan program.
 
 package fibonacci;
+
 import java.util.Scanner; // Kullanıcıdan giriş almak için sınıf gerekiyor. Bu sınıfımızı burada dahil ettik.
 
 
