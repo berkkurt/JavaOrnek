@@ -9,7 +9,7 @@ public class DortgenYildiz {
 
     public static void main(String[] args) {
         
-        Scanner input = new Scanner(System.in);//Dışardan gireceğim değeri input değişkeninde tut
+        Scanner input = new Scanner(System.in);//Dışardan gireceğim değeri input değişkeninde tutmak için scanner tanımlandı.
         int yukseklik, genislik;
         
         System.out.print("Kutunun yuksekligini giriniz: ");
