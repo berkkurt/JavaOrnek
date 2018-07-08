@@ -1,5 +1,5 @@
-// Kullanıcıya Fahrenheit -> Celsius || Celsius -> fahrenheit
-// hangi dönüşümü yapacağını soran ve dönüşümü hesaplayan program.
+// Kullanıcıya Fahrenheit -> Celsius || Celsius -> Fahrenheit arasından
+// hangisinin dönüşümünü yapacağını soran ve dönüşümü hesaplayan program.
 
 package sicaklikdonusum;
 
@@ -22,11 +22,11 @@ public class SicaklikDonusum {
         System.out.println("Değeri giriniz");
         derece = input.nextDouble();
       
-            if(secim == 1)
+            if(secim == 1) // 1.ciyi seçerse F-> C'ye dönüşüm olacak.
             {
                 donusum = ((derece-32)*5.0)/9.0;
             }
-             else
+             else // c-> F dönüşümü olacak.
             {
                 donusum = (5.0/9.0)*derece+32;
             }
