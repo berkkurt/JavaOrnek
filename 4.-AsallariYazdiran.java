@@ -4,7 +4,7 @@ package asallariyazdiran;
 
 import java.util.Scanner;   // Scanner için gerekli
 
-/* import java.util.*; yazarak da eklenir ancak * yapınca tüm kütüphaneler 
+/* Scanner ; import java.util.*; yazarak da eklenir ancak * yapınca tüm kütüphaneler 
 eklenir ve program yavaşlar. Bu yüzden sadece bize gerekli olanı ekliyoruz. */
 
 public class AsallariYazdiran {
