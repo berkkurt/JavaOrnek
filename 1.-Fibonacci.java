@@ -15,6 +15,7 @@ public class Fibonacci {
          
          // Bu 3 satırda kullanıcının kaç adet  fibonacci sayısı istediğini sorup onun cevabını count değişkenine atadık.
          System.out.print("Kaç adet değer girileceğini yazınız.(2 veya daha büyük bir sayı) : ");   
+        // İlk 2 karakteri kendimiz yazdırdığımızdan böyle bir açıklama yaptık.
          Scanner input = new Scanner(System.in);          
          kullanici_degeri=input.nextByte();        
 
