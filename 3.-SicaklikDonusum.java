@@ -11,15 +11,15 @@ public class SicaklikDonusum {
   
     public static void main(String[] args) {
         
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); 
         int secim;
         double derece,donusum;
         
-        System.out.println("1-)Fahrenheit->Celsius "+"\n"+"2-)Celsius->Fahrenheit");
+        System.out.println("1-)Fahrenheit->Celsius "+"\n"+"2-)Celsius->Fahrenheit");  // Seçim kısmı
         System.out.println("Lütfen seçim yapınız : ");
         secim = input.nextInt();
       
-        System.out.println("Değeri giriniz");
+        System.out.println("Değeri giriniz");  // Hesaplanacak olan değeri kullanıcıdan alacağımız kısım.
         derece = input.nextDouble();
       
             if(secim == 1) // 1.ciyi seçerse F-> C'ye dönüşüm olacak.
