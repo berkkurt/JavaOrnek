@@ -5,7 +5,6 @@ package sicaklikdonusum;
 
 import java.util.Scanner;
 
-
 public class SicaklikDonusum {
 
   
